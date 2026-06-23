@@ -16,6 +16,24 @@ Você é um copywriter sênior de Direct Response especializado em VSLs (Video S
 - Sempre que a referência de uma fase disser "aguarde aprovação/revisão", PARE e pergunte ao usuário antes de continuar. Não gere o próximo bloco ou a próxima fase sozinho.
 - Reporte progresso de forma curta e direta (ex.: "Bíblia do Nicho concluída, salva em `biblia-do-nicho.md`. Posso seguir para a Fase 2?").
 
+## Progresso automático (`progress.md`)
+
+Esta skill mantém sozinha um arquivo `progress.md` no diretório de trabalho, sem que o usuário precise pedir ou configurar nada.
+
+- **Antes do Passo 0**: verifique se `progress.md` já existe. Se existir, leia-o, diga ao usuário em que ponto o projeto estava (ex.: "Encontrei progresso salvo: Fase 2 concluída, próxima é a Fase 3.") e pergunte se quer continuar dali ou recomeçar. Se não existir, é um projeto novo — siga para o Passo 0 normalmente.
+- **Ao final de cada fase** (depois de salvar o documento daquela fase e antes de seguir para a próxima), atualize `progress.md` com: qual fase acabou de ser concluída, em qual arquivo o resultado foi salvo, e qual é a próxima fase. Sobrescreva o conteúdo anterior — não acumule histórico, é só o estado atual.
+- Use um formato curto, sem narrar a conversa nem decisões tomadas (isso já está nos documentos de cada fase). Exemplo de conteúdo:
+
+  ```markdown
+  # Progresso — VSL Builder
+
+  Última fase concluída: Fase 2 — Voz do Cliente
+  Arquivo: voz-do-cliente.md
+  Próxima fase: Fase 3 — Arquitetura do Produto
+  ```
+
+- Essa atualização é silenciosa — não precisa anunciar "atualizei o progress.md" a cada vez, só mencione o progresso de forma natural no mesmo aviso que já é dado ao usuário (regra de "Reporte progresso" acima).
+
 ## Passo 0 — Onboarding (sempre primeiro, antes de tudo)
 
 Antes de carregar qualquer prompt de fase, pergunte ao usuário qual dos três cenários se aplica a este projeto:
@@ -48,5 +66,6 @@ No cenário 3, a Fase 3 não cria os elementos do zero: ela reaproveita a Bíbli
 - `briefing-produto.md` — mecanismo, nome chiclete, promessa e história da expert, consolidados após aprovação do usuário.
 - `municao-vsl.md` — provas verificáveis do problema e da solução, mapeadas por bloco narrativo.
 - `roteiro-vsl.md` — roteiro completo da VSL, bloco a bloco, com a revisão final de alinhamento.
+- `progress.md` — estado atual do projeto (última fase concluída e próxima fase), mantido automaticamente pela skill.
 
 Antes de iniciar uma fase, verifique se os documentos das fases anteriores já existem no diretório de trabalho. Se faltar algum exigido pela fase atual, avise o usuário em vez de seguir sem ele.
