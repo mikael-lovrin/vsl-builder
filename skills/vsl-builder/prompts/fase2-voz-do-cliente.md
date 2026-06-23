@@ -4,12 +4,12 @@ Objetivo: pesquisa ativa de audiência — captura das falas reais do público p
 
 ## Execução
 
-Consulte `biblia-do-nicho.md` antes de pesquisar — use ela para identificar os termos, temas e linguagem do nicho.
+Consulte `briefing-mercado.md` antes de pesquisar — use ela para identificar os termos, temas e linguagem do nicho. Consulte também `mercado-alvo.md`: define o país e o idioma onde essa pesquisa deve ser feita.
 
-Pesquise ativamente em YouTube, Facebook, Instagram, Reddit Brasil e blogs/fóruns brasileiros. Busque comentários reais de pessoas reais sobre o tema.
+Pesquise ativamente em YouTube, Facebook, Instagram, Reddit e blogs/fóruns **do país e no idioma definidos em `mercado-alvo.md`** (não necessariamente os mesmos do idioma desta conversa). Busque comentários reais de pessoas reais sobre o tema.
 
 Regras:
-- Não interprete, não parafraseie, não resuma. Copie as falas exatamente como foram escritas, erros de português incluídos.
+- Não interprete, não parafraseie, não resuma. Copie as falas exatamente como foram escritas, erros de digitação/gramática incluídos, no idioma original em que foram escritas.
 - Não dore a pílula. Traga o que existe, não o que é confortável.
 
 Capture as 5 falas mais poderosas de cada uma destas categorias:

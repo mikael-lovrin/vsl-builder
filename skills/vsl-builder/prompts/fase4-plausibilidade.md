@@ -18,7 +18,7 @@ Não invente. Não force conexões que não existem. Se não encontrar prova só
 
 ## Passo 2 — Plausibilidade da solução
 
-Foque agora no mecanismo da solução e no nome chiclete do briefing. Pesquise ativamente na web e traga fatos verificáveis que dêem base real à solução:
+Foque agora no mecanismo da solução e no nome do mecanismo do briefing. Pesquise ativamente na web e traga fatos verificáveis que dêem base real à solução:
 - Figuras históricas que usaram princípio similar.
 - Estudos ou dados científicos que validem o mecanismo.
 - Referências culturais ou históricas que conectem a solução ao imaginário do público.

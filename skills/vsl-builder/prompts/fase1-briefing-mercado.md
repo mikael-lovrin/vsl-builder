@@ -1,6 +1,6 @@
-# Fase 1 — Bíblia do Nicho (a partir de VSLs de concorrentes)
+# Fase 1 — Briefing de Mercado (a partir de VSLs de concorrentes)
 
-Objetivo: pesquisa profunda do mercado a partir de 2 a 4 VSLs de concorrentes — avatar, linguagem, mecanismo, promessa, provas e ângulos — consolidados em `biblia-do-nicho.md`.
+Objetivo: pesquisa profunda do mercado a partir de 2 a 4 VSLs de concorrentes — avatar, linguagem, mecanismo, promessa, provas e ângulos — consolidados em `briefing-mercado.md`.
 
 ## Setup
 
@@ -10,7 +10,7 @@ Regras:
 - Não antecipe etapas.
 - Responda apenas o que for pedido em cada etapa.
 - Não interprete, extraia.
-- A cada nova VSL, acumule no mesmo arquivo `biblia-do-nicho.md` — não substitua o que já foi extraído.
+- A cada nova VSL, acumule no mesmo arquivo `briefing-mercado.md` — não substitua o que já foi extraído.
 - Se algo não estiver claro na VSL, aponte isso explicitamente — não invente.
 - A consolidação final (último passo) só acontece depois que todas as VSLs fornecidas pelo usuário tiverem sido analisadas.
 
@@ -37,7 +37,7 @@ Identifique:
 ### Etapa 3 — Mecanismo
 Extraia:
 1. Mecanismo do problema: qual é o bloqueio invisível que impede o resultado, qual é a causa raiz, quem ou o que é o vilão responsável.
-2. Mecanismo da solução: qual é o nome chiclete do mecanismo, como ele funciona (2-3 frases simples), por que ele é NOVO — diferente de tudo que o público já tentou.
+2. Mecanismo da solução: qual é o nome do mecanismo, como ele funciona (2-3 frases simples), por que ele é NOVO — diferente de tudo que o público já tentou.
 
 ### Etapa 4 — Promessa
 Extraia:
@@ -74,7 +74,7 @@ Extraia:
 
 ## Consolidação final (só depois de todas as VSLs analisadas)
 
-Cruze as informações de todas as VSLs analisadas e monte a Bíblia do Nicho. Para cada item, indique:
+Cruze as informações de todas as VSLs analisadas e monte o Briefing de Mercado. Para cada item, indique:
 - O que apareceu em TODAS as VSLs → elemento obrigatório do nicho.
 - O que apareceu em MAIS DE UMA → elemento forte, provável padrão.
 - O que apareceu em APENAS UMA → elemento individual, não é padrão.
@@ -91,4 +91,4 @@ Itens a consolidar:
 9. **Fechamento** — padrões de urgência, garantia, faixas de preço.
 10. **Elementos obrigatórios do nicho** — apenas o que apareceu em mais de uma VSL: o que não pode faltar numa nova VSL para esse mercado.
 
-Salve o resultado formatado como documento de referência em `biblia-do-nicho.md`. Esse será o briefing base para a Fase 2 e a Fase 3.
+Salve o resultado formatado como documento de referência em `briefing-mercado.md`. Esse será o briefing base para a Fase 2 e a Fase 3.
